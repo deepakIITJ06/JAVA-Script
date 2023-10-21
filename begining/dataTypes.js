@@ -1,3 +1,4 @@
+"use strict" // treat all JS code as newer version
 let age = 18;
 let nm  = "deepak";
 let state = true;
