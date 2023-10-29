@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div> 
+    </div>
+    <script>
+        const pp = document.querySelector(".parent")
+        console.log(pp)
+
+        for (let i=0;i<pp.children.length; i++) {
+            console.log(pp.children[i].innerHTML)
+        }
+        pp.children[1].style.color = "orange"
+        console.log(document.querySelector(".day"));
+    </script>
+</html>
